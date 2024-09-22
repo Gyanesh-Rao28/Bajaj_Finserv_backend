@@ -28,7 +28,7 @@ router.post('/', async (req, res) => {
           if (!user) {
                user = new User({
                     user_id: 'gyanesh_rao_28',
-                    email: 'gyaneshrao@gmail.com',
+                    email: 'gyaneshrao_s@srmap.edu.in',
                     roll_number: 'AP21110010239'
                });
                await user.save();
